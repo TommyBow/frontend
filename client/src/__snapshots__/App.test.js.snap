@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the TaskForm component 1`] = `
+<DocumentFragment>
+  <form
+    class="task-form"
+  >
+    <input
+      placeholder="Note Title"
+      required=""
+      type="text"
+      value=""
+    />
+    <textarea
+      placeholder="Add description"
+      required=""
+    />
+    <label
+      for="task-date"
+    >
+      Due Date:
+    </label>
+    <input
+      id="task-date"
+      required=""
+      type="date"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      Add Note
+    </button>
+  </form>
+</DocumentFragment>
+`;
