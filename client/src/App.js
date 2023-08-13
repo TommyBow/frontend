@@ -19,7 +19,7 @@ const App = () => {
   const [isAdmin, setIsAdmin] = useState(false); // Initialize isAdmin state
 
 
-  const API_BASE_URL = 'http://localhost:5000/api'; // Base URL for the API
+  const API_BASE_URL = 'https://server-plan-pro-4d669e61dcef.herokuapp.com/'; // Base URL for the API
 
   // Fetch tasks from the server
   const fetchTasks = useCallback(async () => {
